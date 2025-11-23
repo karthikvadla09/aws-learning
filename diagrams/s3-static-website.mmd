@@ -1,0 +1,22 @@
+flowchart TD
+
+A[Developer<br>Upload Website Files] --> B[Amazon S3 Bucket<br>(Static Website Hosting Enabled)]
+
+B --> C[Bucket Policy<br>Public Read Access]
+
+C --> D[CloudFront Distribution<br>(Optional, For CDN & HTTPS)]
+
+D --> E[DNS Configuration<br>(Route 53)]
+
+E --> F[User Accesses Website<br>through Domain]
+
+B --> G[Direct S3 Website Endpoint<br>(Alternative Access)]
+
+1. Upload Website Files
+The developer uploads HTML, CSS, JS, and images into an S3 bucket.
+
+2. Enable Static Website Hosting
+The S3 bucket is configured to host a static website with an index document and error document.
+
+3. Apply Bucket Policy
+A public-read policy is attached to allow website users to access the files.
