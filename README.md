@@ -7,25 +7,25 @@ This repo showcases my **cloud fundamentals**, **security knowledge**, **archite
 
 ## 📚 Learning Source
 
-Many of the projects and exercises in this repository are **inspired by guided labs from [NextWork](https://learn.nextwork.org/)**.
+Many of the projects and exercises in this repository are **inspired by guided labs from [NextWork](https://learn.nextwork.org/)**.  
 All documentation, explanations, diagrams, and notes are written **in my own words** based on what I learned and practiced.
 
 ---
 
 ## 📁 Repository Structure
 
-aws-learning/
-├─ README.md # You are here
-├─ journal/ # Daily learning entries
-│ ├─ YYYY-MM-DD.md
-│ └─ ...
-├─ projects/ # Each AWS project with documentation
-│ ├─ 01-project/
-│ │ ├─ design/ # Architecture diagrams
-│ │ └─ README.md # Documented project steps
-│ ├─ 02-project/
-│ └─ 03-project/
-└─ diagrams/
+aws-learning/  
+├─ README.md # You are here  
+├─ journal/ # Daily learning entries  
+│ ├─ YYYY-MM-DD.md  
+│ └─ ...  
+├─ projects/ # Each AWS project with documentation  
+│ ├─ 01-project/  
+│ │ ├─ design/ # Architecture diagrams  
+│ │ └─ README.md # Documented project steps  
+│ ├─ 02-project/  
+│ └─ 03-project/  
+└─ diagrams/  
 
 ---
 
