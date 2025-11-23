@@ -1,11 +1,7 @@
-flowchart TD
+flowchart LR
 
-A[Developer uploads website files] --> B[S3 bucket with static hosting enabled]
-B --> C[Public read bucket policy]
-C --> D[CloudFront distribution (optional)]
-D --> E[Route 53 DNS configuration]
-E --> F[User accesses website]
-B --> G[Direct S3 website endpoint]
+User[User Browser] --> DNS[Route 53 DNS]
+DNS --> S3[S3 Static Website Hosting]
 
 1. Upload Website Files
 The developer uploads HTML, CSS, JS, and images into an S3 bucket.
