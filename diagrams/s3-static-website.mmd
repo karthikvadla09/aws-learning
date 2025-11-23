@@ -1,16 +1,11 @@
 flowchart TD
 
-A[Developer<br>Upload Website Files] --> B[Amazon S3 Bucket<br>(Static Website Hosting Enabled)]
-
-B --> C[Bucket Policy<br>Public Read Access]
-
-C --> D[CloudFront Distribution<br>(Optional, For CDN & HTTPS)]
-
-D --> E[DNS Configuration<br>(Route 53)]
-
-E --> F[User Accesses Website<br>through Domain]
-
-B --> G[Direct S3 Website Endpoint<br>(Alternative Access)]
+A[Developer uploads website files] --> B[S3 Bucket with static hosting enabled]
+B --> C[Bucket policy allows public read access]
+C --> D[CloudFront distribution (optional)]
+D --> E[Route 53 DNS configuration]
+E --> F[User accesses website through domain]
+B --> G[Direct S3 website endpoint (optional)]
 
 1. Upload Website Files
 The developer uploads HTML, CSS, JS, and images into an S3 bucket.
