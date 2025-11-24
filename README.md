@@ -19,9 +19,13 @@ aws-learning/
 ├─ journal/ # Daily learning entries  
 │ ├─ YYYY-MM-DD.md  
 │ └─ ...  
+├─ resources/  
+│ ├─ nextwork/  
+│ │ └─ document-project01.pdf  
 ├─ projects/ # Each AWS project with documentation  
 │ ├─ 01-project/  
 │ │ ├─ design/ # Architecture diagrams  
+│ │ ├─ screenshots/  
 │ │ └─ README.md # Documented project steps  
 │ ├─ 02-project/  
 │ └─ 03-project/  
@@ -39,7 +43,7 @@ I’m focusing on **core AWS skills**, **cloud security**, and **architectural r
 - [x] Cloud Security with AWS IAM
 
 ### **Security Series**
-- [ ] Cloud Security with AWS IAM
+- [x] Cloud Security with AWS IAM
 - [ ] Encrypt Data with AWS KMS
 - [ ] Threat Detection with GuardDuty
 - [ ] Secure Secrets with Secrets Manager
